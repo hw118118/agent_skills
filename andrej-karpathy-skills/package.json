@@ -1,0 +1,27 @@
+{
+  "name": "andrej-karpathy-skills",
+  "version": "1.0.0",
+  "description": "Behavioral guidelines to reduce common LLM coding mistakes, packaged as a Claude Code plugin. Derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skill",
+    "guidelines",
+    "best-practices",
+    "karpathy"
+  ],
+  "files": [
+    ".claude-plugin/",
+    "skills/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "postinstall": "node -e \"console.log('\\n[andrej-karpathy-skills] Installed. Register with Claude Code:\\n  /plugin marketplace add ' + require('path').resolve(__dirname) + '\\n  /plugin install andrej-karpathy-skills\\n')\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills.git"
+  }
+}

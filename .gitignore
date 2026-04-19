@@ -1,0 +1,27 @@
+# Python venvs and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Local skill development workspaces (eval runs, logs, scratch)
+# skill-creator creates <plugin-name>-workspace/ siblings next to each plugin.
+*-workspace/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

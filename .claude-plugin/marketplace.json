@@ -1,0 +1,46 @@
+{
+  "name": "agent-skills",
+  "id": "agent-skills",
+  "owner": {
+    "name": "agent_skills"
+  },
+  "metadata": {
+    "description": "Industrial-grade, general-purpose Claude Code skills collected and curated for cross-project reuse.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "andrej-karpathy-skills",
+      "source": "./andrej-karpathy-skills",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution.",
+      "version": "1.0.0",
+      "author": {
+        "name": "forrestchang"
+      },
+      "keywords": [
+        "guidelines",
+        "best-practices",
+        "coding",
+        "karpathy"
+      ],
+      "category": "workflow"
+    },
+    {
+      "name": "codebase-analyzer-docs",
+      "source": "./codebase-analyzer-docs",
+      "description": "Generate deep, structured onboarding documentation for a codebase — architecture, module deep-dives, grounded code snippets, and Mermaid diagrams, split across multiple readable documents.",
+      "version": "0.1.0",
+      "author": {
+        "name": "agent_skills contributors"
+      },
+      "keywords": [
+        "documentation",
+        "onboarding",
+        "architecture",
+        "codebase",
+        "design-doc"
+      ],
+      "category": "documentation"
+    }
+  ]
+}

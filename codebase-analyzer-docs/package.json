@@ -1,0 +1,24 @@
+{
+  "name": "codebase-analyzer-docs",
+  "version": "0.1.0",
+  "description": "Claude Code plugin: generate deep, structured onboarding documentation for a codebase — architecture, module deep-dives, grounded snippets, and Mermaid diagrams.",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skill",
+    "documentation",
+    "onboarding",
+    "architecture",
+    "codebase"
+  ],
+  "files": [
+    ".claude-plugin/",
+    "skills/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "postinstall": "node -e \"console.log('\\n[codebase-analyzer-docs] Installed. Register with Claude Code:\\n  /plugin marketplace add ' + require('path').resolve(__dirname) + '\\n  /plugin install codebase-analyzer-docs\\n')\""
+  }
+}

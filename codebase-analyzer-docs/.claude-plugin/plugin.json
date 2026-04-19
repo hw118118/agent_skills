@@ -1,0 +1,19 @@
+{
+  "name": "codebase-analyzer-docs",
+  "description": "Generate deep, structured onboarding documentation for a codebase — architecture overview, module deep-dives, grounded code snippets, and Mermaid diagrams, split across multiple readable documents.",
+  "version": "0.1.0",
+  "author": {
+    "name": "agent_skills contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "documentation",
+    "onboarding",
+    "architecture",
+    "codebase",
+    "design-doc"
+  ],
+  "skills": [
+    "./skills/codebase-analyzer-docs"
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "query": "i just inherited this payments monorepo from a team that left last month and i honestly have no idea where anything is. can you go through /home/dev/projects/billing-core and write me a proper set of docs so the new hires coming in q3 actually have something to read besides the 4-line readme?",
+    "should_trigger": true
+  },
+  {
+    "query": "write an architecture doc for the whole backend — the one at ./services/api — covering how requests flow, where the auth middleware sits, and how the background worker queue hooks in. needs to be good enough that a senior can cite it in a design review.",
+    "should_trigger": true
+  },
+  {
+    "query": "help me onboard to this codebase, im starting monday. its the react native app at apps/mobile, ive never worked on it before. would be great to have something broken into multiple docs so i can read progressively",
+    "should_trigger": true
+  },
+  {
+    "query": "produce contributor documentation for this open source project — need architecture overview, module walkthrough, and how-to-extend sections. we keep getting the same 'how does this work' issues on github",
+    "should_trigger": true
+  },
+  {
+    "query": "我需要给这个仓库做一套完整的设计文档和架构说明，要结构化，能让新人从零开始看懂整个代码库，关键地方要配上代码片段和图",
+    "should_trigger": true
+  },
+  {
+    "query": "can you deep-dive this repo and write docs? it's a go service with ~40 packages and nobody remembers why half of them exist. needs diagrams ideally",
+    "should_trigger": true
+  },
+  {
+    "query": "write me an onboarding guide for ./apps/ingest-pipeline. i want the works — overview, quickstart, per-module deep dives, sequence diagrams for the main ETL flows, the whole thing",
+    "should_trigger": true
+  },
+  {
+    "query": "document this entire codebase for me — what it does, how it's put together, data flow, key decisions. multiple files is fine, single big file would be unreadable",
+    "should_trigger": true
+  },
+  {
+    "query": "we just hired 3 engineers and i want them to be able to ramp up on the platform repo without me in the room. go through it and produce a proper architecture writeup",
+    "should_trigger": true
+  },
+  {
+    "query": "give me a structured writeup of the rust crate at crates/query-engine — i want to understand the module structure, what each module owns, and where the perf-critical paths live",
+    "should_trigger": true
+  },
+  {
+    "query": "what does this function do? i'm looking at `validate_token` in src/auth/middleware.ts line 47 or so — can't tell if the expiry check is correct",
+    "should_trigger": false
+  },
+  {
+    "query": "our README is embarrassingly out of date, can you rewrite the top-level README.md for this project? maybe half a page, install + what it does + a link to our docs",
+    "should_trigger": false
+  },
+  {
+    "query": "add jsdoc comments to all the exported functions in src/utils/ — i want to run typedoc on it and publish to the api reference page",
+    "should_trigger": false
+  },
+  {
+    "query": "write a design doc for a new feature i want to add — realtime collab on the whiteboard component. should cover CRDT choice, conflict resolution, network protocol. it's not built yet, i just want the plan doc",
+    "should_trigger": false
+  },
+  {
+    "query": "document the public HTTP API of this library — endpoints, request/response schemas, auth headers. for the partner integrations page on our marketing site",
+    "should_trigger": false
+  },
+  {
+    "query": "can you explain the difference between Promise.all and Promise.allSettled? i keep mixing them up in code review",
+    "should_trigger": false
+  },
+  {
+    "query": "i'm refactoring the payment retry logic in services/billing/retry.go — walk me through what's there now so i can plan the changes",
+    "should_trigger": false
+  },
+  {
+    "query": "add inline comments to explain the recursion in ./lib/parser.ts — the jsonl streaming bit is hard to follow for new contributors",
+    "should_trigger": false
+  },
+  {
+    "query": "我想写个技术博客，关于我们公司怎么用 kafka 的，不用太长，一两千字就行，主要讲我们的设计决策",
+    "should_trigger": false
+  },
+  {
+    "query": "our docs site is built with docusaurus and the sidebar is broken — the 'getting started' link goes nowhere. can you fix the config in docusaurus.config.js?",
+    "should_trigger": false
+  }
+]
