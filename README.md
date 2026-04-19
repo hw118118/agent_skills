@@ -24,13 +24,15 @@ The repo-level [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.js
 
 ### 2. npm
 
-Each plugin is also published to npm so it can be installed standalone:
+Each plugin is also published to npm under the shared `@agent-skills` scope so it can be installed standalone:
 
 ```bash
-npm install <plugin-name>
-/plugin marketplace add ./node_modules/<plugin-name>
+npm install @agent-skills/<plugin-name>
+/plugin marketplace add ./node_modules/@agent-skills/<plugin-name>
 /plugin install <plugin-name>
 ```
+
+Note: `/plugin install` always takes the **plugin name** (e.g. `andrej-karpathy-skills`), not the skill name inside it (e.g. `karpathy-guidelines`). Plugin names are listed in the table above and in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json).
 
 The `postinstall` hook prints the exact `marketplace add` path.
 

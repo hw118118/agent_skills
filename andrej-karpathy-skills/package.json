@@ -1,5 +1,5 @@
 {
-  "name": "andrej-karpathy-skills",
+  "name": "@agent-skills/andrej-karpathy-skills",
   "version": "1.0.0",
   "description": "Behavioral guidelines to reduce common LLM coding mistakes, packaged as a Claude Code plugin. Derived from Andrej Karpathy's observations on LLM coding pitfalls.",
   "license": "MIT",

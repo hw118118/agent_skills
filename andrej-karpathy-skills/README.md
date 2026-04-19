@@ -27,9 +27,9 @@ From the parent `agent_skills` repo:
 ### Option B — npm
 
 ```bash
-npm install andrej-karpathy-skills
+npm install @agent-skills/andrej-karpathy-skills
 # then register the installed directory as a local marketplace:
-/plugin marketplace add ./node_modules/andrej-karpathy-skills
+/plugin marketplace add ./node_modules/@agent-skills/andrej-karpathy-skills
 /plugin install andrej-karpathy-skills
 ```
 
