@@ -22,6 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/multica-ai/andrej-karpathy-skills.git"
+    "url": "git+https://github.com/hw118118/agent_skills.git",
+    "directory": "andrej-karpathy-skills"
+  },
+  "homepage": "https://github.com/hw118118/agent_skills/tree/main/andrej-karpathy-skills",
+  "bugs": {
+    "url": "https://github.com/hw118118/agent_skills/issues"
   }
 }

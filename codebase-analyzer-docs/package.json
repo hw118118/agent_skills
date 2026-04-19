@@ -20,5 +20,14 @@
   ],
   "scripts": {
     "postinstall": "node -e \"console.log('\\n[codebase-analyzer-docs] Installed. Register with Claude Code:\\n  /plugin marketplace add ' + require('path').resolve(__dirname) + '\\n  /plugin install codebase-analyzer-docs\\n')\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hw118118/agent_skills.git",
+    "directory": "codebase-analyzer-docs"
+  },
+  "homepage": "https://github.com/hw118118/agent_skills/tree/main/codebase-analyzer-docs",
+  "bugs": {
+    "url": "https://github.com/hw118118/agent_skills/issues"
   }
 }
