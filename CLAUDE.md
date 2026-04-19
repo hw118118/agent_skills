@@ -40,7 +40,7 @@ Skills are shipped inside a **plugin**, and plugins are discovered through a **m
 Each plugin in this repo must support **both** installation paths:
 
 1. **Claude Code marketplace** — installable via `/plugin marketplace add <git-url>` followed by `/plugin install <plugin-name>`. The repo-level `.claude-plugin/marketplace.json` is the source of truth.
-2. **npm** — each plugin also publishes as an npm package under the shared `@agent-skills` scope (e.g. `@agent-skills/<plugin-name>`). Users install with `npm install @agent-skills/<plugin-name>` and then register the resulting `node_modules/@agent-skills/<plugin-name>` path as a local Claude Code marketplace. Include the necessary `package.json` inside the plugin directory.
+2. **npm** — each plugin also publishes as an npm package under the shared `@hd-agent-skills` scope (e.g. `@hd-agent-skills/<plugin-name>`). Users install with `npm install @hd-agent-skills/<plugin-name>` and then register the resulting `node_modules/@hd-agent-skills/<plugin-name>` path as a local Claude Code marketplace. Include the necessary `package.json` inside the plugin directory.
 
 Organise skills by **capability domain** (e.g. `git/`, `testing/`, `docs/`) rather than by team or product. Do not bake in org-specific paths, hostnames, or container images — a skill in this repo must be portable to any machine.
 

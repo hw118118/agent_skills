@@ -39,8 +39,8 @@ From the parent `agent_skills` repo:
 ### Option B — npm
 
 ```bash
-npm install @agent-skills/codebase-analyzer-docs
-/plugin marketplace add ./node_modules/@agent-skills/codebase-analyzer-docs
+npm install @hd-agent-skills/codebase-analyzer-docs
+/plugin marketplace add ./node_modules/@hd-agent-skills/codebase-analyzer-docs
 /plugin install codebase-analyzer-docs
 ```
 

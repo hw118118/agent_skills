@@ -24,11 +24,11 @@ The repo-level [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.js
 
 ### 2. npm
 
-Each plugin is also published to npm under the shared `@agent-skills` scope so it can be installed standalone:
+Each plugin is also published to npm under the shared `@hd-agent-skills` scope so it can be installed standalone:
 
 ```bash
-npm install @agent-skills/<plugin-name>
-/plugin marketplace add ./node_modules/@agent-skills/<plugin-name>
+npm install @hd-agent-skills/<plugin-name>
+/plugin marketplace add ./node_modules/@hd-agent-skills/<plugin-name>
 /plugin install <plugin-name>
 ```
 
